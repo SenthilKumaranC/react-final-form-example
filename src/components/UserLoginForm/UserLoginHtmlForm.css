@@ -1,0 +1,43 @@
+.UserLoginHtmlForm {
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-gap: 10px;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    border: #000000 2px solid;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+input[name="username"] {
+    border: #000000 0.5px solid;
+    border-radius: 5px;
+    font-size: 15px;;
+    
+}
+
+input[name="password"] {
+    border: #000000 0.5px solid;
+    border-radius: 5px;
+    font-size: 15px;;
+}
+
+button[type="submit"] {
+   
+    border: #000000 0.5px solid;
+    border-radius: 5px;
+    color: white;
+    background: #ed213a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #93291e, #ed213a); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #93291e,
+        #ed213a
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button[type="submit"]:disabled{
+    opacity: 0.3;
+}
